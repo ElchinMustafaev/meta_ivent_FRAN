@@ -1,0 +1,69 @@
+<?php
+
+namespace CalcBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Buyers
+ *
+ * @ORM\Table(name="buyers")
+ * @ORM\Entity(repositoryClass="CalcBundle\Repository\BuyersRepository")
+ */
+class Buyers
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="FIO", type="string", nullable=true)
+     */
+    private $FIO;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="phone", type="string", nullable=true)
+     */
+    private $phone;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="email", type="string", nullable=true)
+     */
+    private $email;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="money", type="string", nullable=true)
+     */
+    private $money;
+
+    /**
+     *
+     *
+     * @ORM\OneToMany(targetEntity="Seller", mappedBy="title",cascade={"persist", "remove"}, orphanRemoval=true)
+     */
+    private $title;
+
+
+    /**
+     * Get id.
+     *
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+}
