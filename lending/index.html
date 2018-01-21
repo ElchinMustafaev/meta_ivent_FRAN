@@ -168,45 +168,6 @@
 }</style><style type="text/css">/* This is not a zero-length file! */</style></head>
 <body>
 <div id="page">
-
-<!-- Navigation -->
-<!-- /.nav-wrp --><!-- Navigation -->
-<!-- /.nav-wrp --><!-- / Contact section -->
-<!-- /contact-section --><!-- Intro -->
-<!-- /.intro-section --><!-- Content -->
-<!-- /.content-section --><!-- Other section -->
-<!-- /.other-section --><!-- Content -->
-<!-- /.content-section --><!-- Team section -->
-<!-- / Team section --><!-- Form section -->
-<!-- Footer section -->
-<!-- ./Footer section --><!-- Navigation -->
-<!-- /.nav-wrp --><!-- Navigation -->
-<!-- /.nav-wrp --><!-- Intro -->
-<!-- /.intro-section --><!-- Content -->
-<!-- /.content-section --><!-- Other section -->
-<!-- /.other-section --><!-- Content -->
-<!-- /.content-section --><!-- Team section -->
-<!-- / Team section --><!-- Form section -->
-<!-- Footer section -->
-<!-- ./Footer section --><!-- Navigation -->
-<!-- /.nav-wrp --><!-- Navigation -->
-<!-- /.nav-wrp --><!-- Intro -->
-<!-- /.intro-section --><!-- Content -->
-<!-- /.content-section --><!-- Other section -->
-<!-- /.other-section --><!-- Content -->
-<!-- /.content-section --><!-- Team section -->
-<!-- / Team section --><!-- Form section -->
-<!-- Footer section -->
-<!-- ./Footer section --><!-- Navigation -->
-<!-- /.nav-wrp --><!-- Navigation -->
-<!-- /.nav-wrp --><!-- Intro -->
-<!-- /.intro-section --><!-- Content -->
-<!-- /.content-section --><!-- Other section -->
-<!-- /.other-section --><!-- Content -->
-<!-- /.content-section --><!-- Team section -->
-<!-- / Team section --><!-- Form section -->
-<!-- Footer section -->
-<!-- ./Footer section --><!-- Navigation -->
 <nav class="nav-wrp nav-2" style="outline-offset: -3px; position: fixed;top: 0px;z-index: 999;width: 100%;">
 	<div class="container">
 
@@ -257,7 +218,7 @@
 
 			<h2 class="main-text">Упаковка франшизы на автопилоте</h2>
 			<p class="sub-text">Узнай прямо сейчас прибыльность собственной франшизы</p>
-			<a href="#calc" class="btn btn-default btn1" style="background-color: rgb(255, 255, 255); color: rgb(56, 118, 29); font-size: 16px;" src="images/uploads/macbook-pro1.png">Рассчитать бесплатно!</a>
+			<a href="#calc" class="btn btn-default btn1" style="background-color: rgb(255, 255, 255); color: rgb(56, 118, 29); font-size: 16px;" src="images/uploads/macbook-pro1.png">Расчитать бесплатно!</a>
 		</div><!-- /.container -->
 	</div>
 	<img src="images/uploads/macbook-pro1.png" class="intro-img img-responsive" alt="Overview">
@@ -354,17 +315,15 @@
 </section><!-- /.content-section --><!-- Other section -->
 <section id="calc" class="other-section other-section-2 dark" data-bg="" style="background-image: url(&quot;&quot;); background-color: rgb(68, 68, 68);" data-bg-align="center-center-cover" src="images/uploads/macbook-pro1.png">
 	<div class="container">
-	    	<form action="form-data/formdata.php" novalidate="novalidate">
+	    <form id="data" action="/set_seller" novalidate="novalidate">
 		<div id="step1-1" class="tab-pn">
 			<h2 class="title">Шаг 1 : Начальные данные</h2>
 			<p class="title-sub">Выберите начальные данные по доходности вашего действующего бизнеса.</p>
 			<div class="form-block">
-						<input class="form-control" data-label="Стартовый капиталл (руб)" required="" data-msg="Стартовый капиталл" name="ivest_sum" placeholder="Стартовый капиталл  (руб)" aria-required="true" min="0" type="number">
-						<input class="form-control" data-label="Доходы в месяц (руб)" required="" data-msg="Доход в месяц" name="credit_month" placeholder="Доходы в месяц  (руб)" aria-required="true" min="0" type="number">
-					<input class="form-control" data-label="Расходы в месяц (руб)" required="" data-msg="Расходы в месяц" name="debit_month" placeholder="Расходы в месяц  (руб)" aria-required="true" min="0" type="number">
-
-
-					<div class="msg-block"></div>
+						<input class="form-control" data-label="Стартовый капиталл (руб)" required="" data-msg="Стартовый капиталл" name="investments" placeholder="Стартовый капиталл  (руб)" aria-required="true" min="0" type="number">
+						<input class="form-control" data-label="Доходы в месяц (руб)" required="" data-msg="Доход в месяц" name="incomes" placeholder="Доходы в месяц  (руб)" aria-required="true" min="0" type="number">
+					<input class="form-control" data-label="Расходы в месяц (руб)" required="" data-msg="Расходы в месяц" name="cost" placeholder="Расходы в месяц  (руб)" aria-required="true" min="0" type="number">
+					<button class="btn btn-primary" onclick="$('a#btStep2').click()" data-tb="#step1-2"> Далее</button>
 				</div><!-- /#popup-contact-form -->
 		</div>
 
@@ -373,13 +332,14 @@
 			<p class="title-sub">Опишите максимально подробно ваш бизнес и заполните важные параметры</p>
 				<div class="form-block">
 
-					<input class="form-control" data-label="Название франшизы" required="" data-msg="Стартовый капиталл" name="name" placeholder="Название франшизы" aria-required="true" type="text">
-				    <textarea class="form-control" data-label="Описание франшизы" required="" data-msg="Описание франшизы" name="descr" placeholder="Описание франшизы" cols="30" rows="4" aria-required="true"></textarea>
-				    <input class="form-control" data-label="Год создания" required="" data-msg="Год создания" name="since" placeholder="Год создания" aria-required="true" min="0" type="number">
-				    <input class="form-control" data-label="Город" required="" data-msg="Город" name="credit_month" placeholder="Город" aria-required="true" type="text">
-				    <input class="form-control" data-label="Паушальный взнос (руб)" required="" data-msg="Паушальный взнос (руб)" name="paushal_sum" placeholder="Паушальный взнос (руб)" aria-required="true" min="0" type="number">
-					<input class="form-control" data-label="Роялти (руб/мес)" required="" data-msg="Роялти (руб/мес)" name="credit_month" placeholder="Роялти (руб/мес)" aria-required="true" min="0" type="number">
-					<div class="msg-block"></div>
+					<input class="form-control" data-label="Название франшизы" required="" data-msg="Стартовый капиталл" name="title" placeholder="Название франшизы" aria-required="true" type="text">
+				    <textarea class="form-control" data-label="Описание франшизы" required="" data-msg="Описание франшизы" name="description" placeholder="Описание франшизы" cols="30" rows="4" aria-required="true"></textarea>
+				    <input class="form-control" data-label="Год создания" required="" data-msg="Год создания" name="year" placeholder="Год создания" aria-required="true" min="0" type="number">
+				    <input class="form-control" data-label="Город" required="" data-msg="Город" name="city" placeholder="Город" aria-required="true" type="text">
+				    <input class="form-control" data-label="Паушальный взнос (руб)" required="" data-msg="Паушальный взнос (руб)" name="paush" placeholder="Паушальный взнос (руб)" aria-required="true" min="0" type="number">
+					<input class="form-control" data-label="Роялти (руб/мес)" required="" data-msg="Роялти (руб/мес)" name="royalty" placeholder="Роялти (руб/мес)" aria-required="true" min="0" type="number">
+					<button class="btn btn-primary" data-tb="#step1-3" onclick="$('a#btStep3').click()" > Далее</button>
+					
 				</div><!-- /#popup-contact-form -->
 		</div>
 
@@ -388,12 +348,12 @@
 			<p class="title-sub">После сохранения всех данных, ваша франшиза попадает в следующий этап расчета эффективности - оценка франшизы сообществом.</p>
 			<div class="form-block">
 
-						<input class="form-control" data-label="ФИО" required="" data-msg="ФИО" name="fio" placeholder="ФИО" aria-required="true" type="text">
+						<input class="form-control" data-label="fio" required="" data-msg="ФИО" name="FIO" placeholder="ФИО" aria-required="true" type="text">
 						<input class="form-control" data-label="Email" required="" data-msg="Email" name="email" placeholder="Email" aria-required="true" type="email">
 							<input class="form-control" data-label="Телефон" required="" data-msg="Телефон" name="phone" placeholder="Телефон" aria-required="true" type="text">
-					<button type="submit" class="btn btn-primary"><i class="fa fa-envelope-o"></i> Отправить</button>
-
+					<button type="submit" class="btn btn-primary"> Отправить</button>
 					<div class="msg-block"></div>
+					
 				</div><!-- /#popup-contact-form -->
 		</div>
 
@@ -402,9 +362,9 @@
 		<ul class="tab-widget">
 			<li><a href="#" data-tb="#step1-1" class="active"><i>1</i></a></li>
 			<li><hr></li>
-			<li><a href="#" data-tb="#step1-2"><i>2</i></a></li>
+			<li><a href="#" id="btStep2" data-tb="#step1-2"><i>2</i></a></li>
 			<li><hr></li>
-			<li><a href="#" data-tb="#step1-3"><i>3</i></a></li>
+			<li><a href="#" id="btStep3" data-tb="#step1-3"><i>3</i></a></li>
 		</ul>
 	</form><!-- / form -->
 	</div><!-- /.container -->
@@ -631,7 +591,64 @@
 
 <!-- JavaScript -->
 <script src="minify/rgen_min.js"></script>
+<!--<script src="https://yastatic.net/jquery/3.1.1/jquery.min.js"></script>-->
 <script async="" src="js/rgen.js"></script>
 
 
+<script type="text/javascript">
+	 $(document).ready(function() {
+
+	 	var viewModel = {
+	 		FIO: '',
+            city: '',
+            email: '',
+            advertising: '',
+            cost: '',//
+            description: '',
+            incomes: '',//прибыль мес
+            investments: '',
+            paush: '',
+            royalty: '',
+            year: '',
+            title: '',
+            phone: '',
+            serializeJSON : function(selector) {
+				var o = {};
+				var a = $(selector).serializeArray();
+				$.each(a, function() {
+					if (o[this.name]) {
+						if (!o[this.name].push) {
+							o[this.name] = [o[this.name]];
+						}
+						o[this.name].push(this.value || '');
+					} else {
+						o[this.name] = this.value || '';
+					}
+				});
+				return JSON.stringify( o ); 
+			},
+
+			init: function(){
+				$("form#data").submit(function(event){
+					$.ajax({
+					        type: "POST",
+					        url: 'http://localhost:8000/set_seller',
+					        data: JSON.stringify(window.viewmodel.serializeJSON("form#data")),
+					        contentType: "application/json"
+						    })
+						    .done(function(data, textStatus, jqXHR){
+						        console.log("Ajax completed: " + data);
+						    })
+						    .fail(function(jqXHR, textStatus, errorThrown){
+						        console.log("Ajax problem: " + textStatus + ". " + errorThrown);
+						    });
+						    event.preventDefault();
+					});
+			},
+	 	};
+
+	 	window.viewmodel = viewModel;
+	 	window.viewmodel.init();
+	 });
+</script>
 </body></html>

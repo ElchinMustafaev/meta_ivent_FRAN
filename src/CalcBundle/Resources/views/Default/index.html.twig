@@ -1,1 +1,701 @@
-Hello World!
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FRAN Агрегатор и упаковщик франшиз</title>
+	<meta name="description" content="FRAN Агрегатор и упаковщик франшиз">
+	<meta name="keywords" content="FRAN Агрегатор и упаковщик франшиз">
+
+	<!--pageMeta-->
+
+	<!-- Lib CSS -->
+	<link href="//fonts.googleapis.com/css?family=Rancho|Open+Sans:400,300,300italic,400italic,600,600italic,700,800italic,700italic,800" rel="stylesheet">
+	<link href="minify/rgen_min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+
+	<!-- Favicons -->
+	<link rel="icon" href="images/favicons/favicon.ico">
+	<link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<!--[if IE 9 ]><script src="js/ie-matchmedia.js"></script><![endif]-->
+
+<style type="text/css">/*
+ * contextMenu.js v 1.4.0
+ * Author: Sudhanshu Yadav
+ * s-yadav.github.com
+ * Copyright (c) 2013 Sudhanshu Yadav.
+ * Dual licensed under the MIT and GPL licenses
+**/
+
+.iw-contextMenu {
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.10);
+    border: 1px solid #c8c7cc;
+    border-radius: 11px;
+    display: none;
+    z-index: 1000000132;
+    max-width: 300px;
+}
+
+.iw-cm-menu {
+    background: #fff;
+    color: #000;
+    margin: 0px;
+    padding: 0px;
+}
+
+.iw-curMenu {
+}
+
+.iw-cm-menu li {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+    list-style: none;
+    padding: 10px;
+    padding-right: 20px;
+    border-bottom: 1px solid #c8c7cc;
+    cursor: pointer;
+    position: relative;
+    font-size: 14px;
+    margin: 0;
+    line-height: inherit;
+}
+
+.iw-cm-menu li:first-child {
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+
+.iw-cm-menu li:last-child {
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-bottom: none;
+}
+
+.iw-mOverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #FFF;
+    opacity: .5;
+}
+
+.iw-contextMenu li.iw-mDisable {
+    opacity: 0.3;
+    cursor: default;
+}
+
+.iw-mSelected {
+    background-color: #F6F6F6;
+}
+
+.iw-cm-arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #000;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    margin-top: -5px;
+}
+
+.iw-mSelected > .iw-cm-arrow-right {
+}
+
+/*context menu css end */</style><style type="text/css">@-webkit-keyframes load4 {
+    0%,
+    100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+}
+
+@keyframes load4 {
+    0%,
+    100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+}</style><style type="text/css">/* This is not a zero-length file! */</style></head>
+<body>
+<div id="page">
+<nav class="nav-wrp nav-2" style="outline-offset: -3px; position: fixed;top: 0px;z-index: 999;width: 100%;">
+	<div class="container">
+
+		<div class="nav-header">
+			<a class="navbar-brand" href="#intro" style=""><img src="images/uploads/logo_black.png" alt="Brand logo" style="border-radius: 0px; border: 0px none rgb(131, 146, 160); margin: 0px; padding: 0px;"></a>
+			<a class="nav-handle fs-touch-element" data-nav=".nav"><i class="fa fa-times"></i></a>
+		</div>
+
+		<div class="nav vm-item m-nav open">
+			<ul class="nav-links">
+				<li><a href="#bussines" class="" style="background-color: rgba(0, 0, 0, 0); color: rgb(39, 78, 19); font-size: 14px;" src="images/uploads/logo_black.png">Инструменты франчайзи</a></li>
+				<li><a href="#invest" class="" style="background-color: rgba(0, 0, 0, 0); color: rgb(68, 68, 68); font-size: 14px;" src="images/uploads/logo_black.png">Для инвесторов</a></li>
+				<li><a href="#team" class="" style="background-color: rgba(0, 0, 0, 0); color: rgb(68, 68, 68); font-size: 14px;" src="images/uploads/logo_black.png">О нас</a></li>
+				<li><a href="#contact" style="background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 14px;" src="images/uploads/logo_black.png" class="active">Контакты</a></li>
+
+			</ul>
+			<div class="nav-social">
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-google-plus"></i></a>
+				<a href="#"><i class="fa fa-youtube-play"></i></a>
+				<a href="#"><i class="fa fa-instagram"></i></a>
+			</div>
+		</div><!-- /.nav -->
+
+	</div><!-- /.container -->
+</nav><!-- /.nav-wrp --><!-- Navigation -->
+<nav class="nav-wrp nav-3 dark bg-glass navbar-fixed-top nav-hide" data-sticky="y" data-glass="y" data-hide="y" style="outline-offset: -3px;">
+	<div class="container">
+
+		<div class="nav-header">
+			<a class="navbar-brand" href="#"><img src="images/logo1.png" alt="Brand logo"></a>
+			<a class="nav-handle fs-touch-element" data-nav=".nav"><i class="fa fa-bars"></i></a>
+		</div>
+
+		<div class="nav vm-item">
+			<div class="nav-other">
+				<a href="#" class="btn btn-default btn-sm"><i class="fa fa-lock"></i> Log in</a>
+				<a href="#" class="btn btn-primary btn-sm"><i class="fa fa-user"></i> Register</a>
+			</div>
+		</div><!-- /.nav -->
+
+	</div><!-- /.container -->
+</nav><!-- /.nav-wrp --><!-- Intro -->
+<section id="intro" class="intro-section intro-section-7">
+	<div class="info-wrp bg-tc bg-cover" data-bg="images/bg9.jpg" data-bg-align="center-center-cover" style="background-image: url(&quot;images/bg9.jpg&quot;); background-color: rgb(139, 206, 123); outline-offset: -3px;">
+		<div class="content">
+
+			<h2 class="main-text">Упаковка франшизы на автопилоте</h2>
+			<p class="sub-text">Узнай прямо сейчас прибыльность собственной франшизы</p>
+			<a href="#calc" class="btn btn-default btn1" style="background-color: rgb(255, 255, 255); color: rgb(56, 118, 29); font-size: 16px;" src="images/uploads/macbook-pro1.png">Расчитать бесплатно!</a>
+		</div><!-- /.container -->
+	</div>
+	<img src="images/uploads/macbook-pro1.png" class="intro-img img-responsive" alt="Overview">
+</section><!-- /.intro-section --><!-- Content -->
+<section id="bussines" class="content-section align-c content-section-9" style="background-color: rgb(243, 244, 245); outline-offset: -3px;">
+	<div class="container">
+		<h2 class="title">Франшиза для владельцев бизнеса</h2>
+		<p class="title-sub">Начните легко расширять ваш бизнес по модели франчайзи, а наши инструменты автоматизируют большую часть рутинных задач</p>
+		<hr class="mr-b-40" style="border-color: rgba(0, 0, 0, 0.05);">
+		<div class="row eqh gt40 fs-equalize-element" style="">
+
+			<div class="col-md-3" style="height: 249px;">
+				<div class="info-box info-box7">
+					<div class="img"><i class="fa fa-balance-scale cm-item"></i></div>
+					<div class="info">
+						<h2 class="hd">Подбор ниши</h2>
+						<p class="sub-txt">Определите, насколько подходит ваш бизнес под модель франчайзи</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3" style="height: 249px;">
+				<div class="info-box info-box7">
+					<div class="img"><i class="fa cm-item pe-7s-comment" style="color: rgb(139, 206, 123);" src="images/uploads/logo.png" id="ui-id-1"></i></div>
+					<div class="info">
+						<h2 class="hd">Опрос инвесторов</h2>
+						<p class="sub-txt">Получите обратную связь от сообщества сразу после создания франшизы в нашей системе</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3" style="height: 249px;">
+				<div class="info-box info-box7">
+					<div class="img"><i class="fa fa-area-chart cm-item"></i></div>
+					<div class="info">
+						<h2 class="hd">Мониторинг</h2>
+						<p class="sub-txt">Несколько видов отчетов о сборе инвестиций, прибыльности, количестве заявок</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3" style="height: 249px;">
+				<div class="info-box info-box7">
+					<div class="img"><i class="fa fa-university cm-item"></i></div>
+					<div class="info">
+						<h2 class="hd">Пакет документов</h2>
+						<p class="sub-txt">Получите весь спектр бумаг для запуска франчайзи сети</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3" style="height: 249px;">
+				<div class="info-box info-box7">
+					<div class="img"><i class="fa fa-calculator cm-item"></i></div>
+					<div class="info">
+						<h2 class="hd">Калькулятор франшиз</h2>
+						<p class="sub-txt">Самостоятельный расчет доходности от создания франчайзи по вашим критериям</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3" style="height: 249px;">
+				<div class="info-box info-box7">
+					<div class="img"><i class="fa fa-calendar-check-o cm-item"></i></div>
+					<div class="info">
+						<h2 class="hd">ERP система</h2>
+						<p class="sub-txt">Управление сетью франчайзи онлайн</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3" style="height: 249px;">
+				<div class="info-box info-box7">
+					<div class="img"><i class="fa cm-item pe-7s-star" style="color: rgb(139, 206, 123);" src="images/uploads/logo.png" id="ui-id-2"></i></div>
+					<div class="info">
+						<h2 class="hd">Продвижение</h2>
+						<p class="sub-txt">Рассылка созданной франшизы в популярные каталоги франшиз</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3" style="height: 249px;">
+				<div class="info-box info-box7">
+					<div class="img"><i class="fa cm-item fa-book" style="color: rgb(139, 206, 123);" src="images/uploads/logo.png" id="ui-id-3"></i></div>
+					<div class="info">
+						<h2 class="hd">Брендбук</h2>
+						<p class="sub-txt">Создание полноценного маркетингового решения для участников вашей франчайзи сети</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div><!-- /.container -->
+</section><!-- /.content-section --><!-- Other section -->
+<section id="calc" class="other-section other-section-2 dark" data-bg="" style="background-image: url(&quot;&quot;); background-color: rgb(68, 68, 68);" data-bg-align="center-center-cover" src="images/uploads/macbook-pro1.png">
+	<div class="container">
+	    <form id="data" method="post" action="set_seller" novalidate="novalidate">
+		<div id="step1-1" class="tab-pn">
+			<h2 class="title">Шаг 1 : Начальные данные</h2>
+			<p class="title-sub">Выберите начальные данные по доходности вашего действующего бизнеса.</p>
+			<div class="form-block">
+						<input class="form-control" data-label="Стартовый капиталл (руб)" required="" data-msg="Стартовый капиталл" name="investments" placeholder="Стартовый капиталл  (руб)" aria-required="true" min="0" type="number">
+						<input class="form-control" data-label="Доходы в месяц (руб)" required="" data-msg="Доход в месяц" name="incomes" placeholder="Доходы в месяц  (руб)" aria-required="true" min="0" type="number">
+					<input class="form-control" data-label="Расходы в месяц (руб)" required="" data-msg="Расходы в месяц" name="cost" placeholder="Расходы в месяц  (руб)" aria-required="true" min="0" type="number">
+					<p class="btn btn-primary" onclick="$('a#btStep2').click();" data-tb="#step1-2"> Далее</p>
+				</div><!-- /#popup-contact-form -->
+		</div>
+
+		<div id="step1-2" class="tab-pn">
+			<h2 class="title">Шаг 2 : Найстройки франчайзи</h2>
+			<p class="title-sub">Опишите максимально подробно ваш бизнес и заполните важные параметры</p>
+				<div class="form-block">
+
+					<input class="form-control" data-label="Название франшизы" required="" data-msg="Стартовый капиталл" name="title" placeholder="Название франшизы" aria-required="true" type="text">
+				    <textarea class="form-control" data-label="Описание франшизы" required="" data-msg="Описание франшизы" name="description" placeholder="Описание франшизы" cols="30" rows="4" aria-required="true"></textarea>
+				    <input class="form-control" data-label="Год создания" required="" data-msg="Год создания" name="year" placeholder="Год создания" aria-required="true" min="0" type="number">
+				    <input class="form-control" data-label="Город" required="" data-msg="Город" name="city" placeholder="Город" aria-required="true" type="text">
+				    <input class="form-control" data-label="Паушальный взнос (руб)" required="" data-msg="Паушальный взнос (руб)" name="paush" placeholder="Паушальный взнос (руб)" aria-required="true" min="0" type="number">
+					<input class="form-control" data-label="Роялти (руб/мес)" required="" data-msg="Роялти (руб/мес)" name="royalty" placeholder="Роялти (руб/мес)" aria-required="true" min="0" type="number">
+					<p class="btn btn-primary" data-tb="#step1-3" onclick="$('a#btStep3').click();" > Далее</p>
+					
+				</div><!-- /#popup-contact-form -->
+		</div>
+
+		<div id="step1-3" class="tab-pn">
+			<h2 class="title">Шаг 3 : Переход к расчету</h2>
+			<p class="title-sub">После сохранения всех данных, ваша франшиза попадает в следующий этап расчета эффективности - оценка франшизы сообществом.</p>
+			<div class="form-block">
+
+						<input class="form-control" data-label="fio" required="" data-msg="ФИО" name="FIO" placeholder="ФИО" aria-required="true" type="text">
+						<input class="form-control" data-label="Email" required="" data-msg="Email" name="email" placeholder="Email" aria-required="true" type="email">
+							<input class="form-control" data-label="Телефон" required="" data-msg="Телефон" name="phone" placeholder="Телефон" aria-required="true" type="text">
+					<button type="submit" class="btn btn-primary"> Отправить</button>
+					<div class="msg-block"></div>
+					
+				</div><!-- /#popup-contact-form -->
+		</div>
+
+		<hr class="mr-tb-50">
+
+		<ul class="tab-widget">
+			<li><a href="#" data-tb="#step1-1" class="active"><i>1</i></a></li>
+			<li><hr></li>
+			<li><a href="#" id="btStep2" data-tb="#step1-2"><i>2</i></a></li>
+			<li><hr></li>
+			<li><a href="#" id="btStep3" data-tb="#step1-3"><i>3</i></a></li>
+		</ul>
+	</form><!-- / form -->
+	</div><!-- /.container -->
+</section><!-- /.other-section --><!-- Content -->
+<section id="invest" class="content-section align-c content-section-7">
+	<div class="container">
+
+		<div class="row eqh fs-equalize-element" style="">
+			<div class="col-md-6 l" style="height: 598px;">
+				<div class="content vm-item">
+					<h2 class="title">Франчайзи для инвесторов</h2>
+					<p class="title-sub">Инвестирование в собственный бизнес по модели франчайзи дает более быструю окупаемость и низкий порог входа для новичков. Вы получаете действующую  бизнес-модель со всеми документами и инструментами для начала деятельности.</p>
+					<a href="#" class="btn btn-line light">Выбрать франшизу</a>
+				</div><!-- /.content -->
+				<div class="full-wh bg-section" style="background-image: url(&quot;&quot;); background-color: rgb(106, 168, 79);" data-bg="" data-bg-align="center-center-cover" src="images/uploads/logo.png"></div>
+			</div>
+			<div class="col-md-6 r" style="height: 598px;">
+				<div class="content">
+					<div class="info-box info-box4">
+						<div class="img"><i class="fa fa-television"></i></div>
+						<div class="info">
+							<h2 class="hd">Каталог франшиз</h2>
+							<p class="sub-txt">Выберите франшизу по вашим интересам, с максимальной прибылью для вашего региона</p>
+						</div>
+					</div><!-- /.info-box -->
+
+					<div class="info-box info-box4">
+						<div class="img"><i class="fa fa-object-group"></i></div>
+						<div class="info">
+							<h2 class="hd">Долевое участие</h2>
+							<p class="sub-txt">Инвестируйте в несколько бизнесов, получайте прибыль в соответствии с вашей долей</p>
+						</div>
+					</div><!-- /.info-box -->
+
+					<div class="info-box info-box4">
+						<div class="img"><i class="fa fa-map-o"></i></div>
+						<div class="info">
+							<h2 class="hd">Оформление онлайн</h2>
+							<p class="sub-txt">Удобное оформление заявки на франшизу без посещения офиса</p>
+						</div>
+					</div><!-- /.info-box -->
+
+					<div class="info-box info-box4">
+						<div class="img"><i class="fa fa-diamond"></i></div>
+						<div class="info">
+							<h2 class="hd">Защита инвестиций</h2>
+							<p class="sub-txt">Защищенные транзакции на основе смарт-контрактов.</p>
+						</div>
+					</div><!-- /.info-box -->
+				</div>
+
+			</div>
+		</div>
+
+	</div><!-- /.container -->
+</section><!-- /.content-section --><!-- Team section -->
+<section id="team" class="team-section team-section-1">
+	<div class="container">
+		<h2 class="title">О нас</h2>
+		<p class="title-sub">Наш проект постоянно развивается благодаря сильной, сплоченной команде специалистов.</p>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="member-box member-box1">
+					<div class="img" data-bg="images/doctor_1.jpg" style="background-image: url(&quot;images/doctor_1.jpg&quot;);">
+						<div class="social">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-google-plus"></i></a>
+						</div>
+						<img src="images/uploads/andrey.jpg" alt="spacer">
+					</div>
+					<h3>Andrey S</h3>
+					<em>Software Architect, Frontend Dev</em>
+				</div><!-- /.member-box -->
+			</div>
+			<div class="col-md-3">
+				<div class="member-box member-box1">
+					<div class="img" data-bg="images/doctor_2.jpg" style="background-image: url(&quot;images/doctor_2.jpg&quot;);">
+						<div class="social">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-google-plus"></i></a>
+						</div>
+						<img src="images/uploads/elchin.jpg" alt="spacer">
+					</div>
+					<h3>Elchin</h3>
+					<em>Software Team Lead, Backend Dev</em>
+				</div><!-- /.member-box -->
+			</div>
+			<div class="col-md-3">
+				<div class="member-box member-box1">
+					<div class="img" data-bg="images/doctor_3.jpg" style="background-image: url(&quot;images/doctor_3.jpg&quot;);">
+						<div class="social">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-google-plus"></i></a>
+						</div>
+						<img src="images/uploads/ilia.jpg" alt="spacer">
+					</div>
+					<h3>Alexander</h3>
+					<em>Project Manager, Marketing Consulting</em>
+				</div><!-- /.member-box -->
+			</div>
+			<div class="col-md-3">
+				<div class="member-box member-box1">
+					<div class="img" data-bg="images/doctor_4.jpg" style="background-image: url(&quot;images/doctor_4.jpg&quot;);">
+						<div class="social">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-google-plus"></i></a>
+						</div>
+						<img src="images/uploads/iliaa.jpg" alt="spacer">
+					</div>
+					<h3>Ilya</h3>
+					<em>Project Architect, System Adminstation</em>
+				</div><!-- /.member-box -->
+			</div>
+			<div class="col-md-3">
+				<div class="member-box member-box1">
+					<div class="img" data-bg="images/doctor_5.jpg" style="background-image: url(&quot;images/doctor_5.jpg&quot;);">
+						<div class="social">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-google-plus"></i></a>
+						</div>
+						<img src="images/uploads/igor.jpg" alt="spacer">
+					</div>
+					<h3>Igor</h3>
+					<em>PR Managment, Consulting</em>
+				</div><!-- /.member-box -->
+			</div>
+			<div class="col-md-3">
+				<div class="member-box member-box1">
+					<div class="img" data-bg="images/doctor_6.jpg" style="background-image: url(&quot;images/doctor_6.jpg&quot;);">
+						<div class="social">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-google-plus"></i></a>
+						</div>
+						<img src="images/uploads/unknown.png" alt="spacer">
+					</div>
+					<h3>Wilson Young</h3>
+					<em>Sales Person</em>
+				</div><!-- /.member-box -->
+			</div>
+			<div class="col-md-3">
+				<div class="member-box member-box1">
+					<div class="img" data-bg="images/doctor_7.jpg" style="background-image: url(&quot;images/doctor_7.jpg&quot;);">
+						<div class="social">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-google-plus"></i></a>
+						</div>
+						<img src="images/uploads/unknown.png" alt="spacer">
+					</div>
+					<h3>Marshall Stevenson</h3>
+					<em>Designer</em>
+				</div><!-- /.member-box -->
+			</div>
+			<div class="col-md-3">
+				<div class="member-box member-box1">
+					<div class="img" data-bg="images/doctor_8.jpg" style="background-image: url(&quot;images/doctor_8.jpg&quot;);">
+						<div class="social">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-google-plus"></i></a>
+						</div>
+						<img src="images/uploads/unknown.png" alt="spacer">
+					</div>
+					<h3>Frankie	Padilla</h3>
+					<em>SMM, SEO</em>
+				</div><!-- /.member-box -->
+			</div>
+		</div>
+
+	</div>
+</section><!-- / Team section --><!-- Form section -->
+<section id="contact" class="form-section form-section-3">
+	<div class="container">
+		<div class="row eqh fs-equalize-element" style="">
+
+			<div class="col-md-6 l" style="height: 303px;">
+				<div class="vm-item">
+					<h6>Мы в соцсетях</h6>
+					<h2 class="title small">Присоединяйся к нам</h2>
+
+					<div class="social">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-google-plus"></i></a>
+						<a href="#"><i class="fa fa-youtube-play"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div><!-- /Social -->
+
+				</div>
+			</div><!-- /Contact form -->
+
+			<div class="col-md-6 r" style="height: 303px;">
+				<div class="newsletter vm-item">
+					<h6>Рассылка новостей</h6>
+					<h2 class="title small">Подпишись на рассылку</h2>
+					<form action="form-data/notify-me.php" method="post" id="subscribe" novalidate="novalidate">
+						<div class="field-group">
+							<input class="form-control" name="email" id="email" placeholder="Enter your email" type="email">
+							<button type="submit" id="submit" class="btn btn-primary"><i class="fa fa-envelope-o"></i></button>
+						</div>
+						<div class="msg-wrp"></div>
+					</form> <!-- /form -->
+				</div>
+			</div><!-- /Newsletter form -->
+
+		</div>
+	</div>
+</section><!-- Footer section -->
+<section class="footer-section footer-section-5" style="outline-offset: -3px; background-image: url(&quot;images/bg9.jpg&quot;); background-color: rgb(38, 47, 56);" data-bg="images/bg9.jpg" data-bg-align="center-center-cover" src="images/uploads/unknown.png">
+	<div class="container">
+		<img src="images/uploads/logo.png" alt="Company logo">
+		<p></p>
+		<hr>
+		<p class="copyright">FRAN © 2018</p>
+	</div>
+</section><!-- ./Footer section --></div>
+<!-- /#page -->
+
+<!-- JavaScript -->
+<script src="minify/rgen_min.js"></script>
+<!--<script src="https://yastatic.net/jquery/3.1.1/jquery.min.js"></script>-->
+<script async="" src="js/rgen.js"></script>
+
+
+<script type="text/javascript">
+	/* $(document).ready(function() {
+
+	 	var viewModel = {
+	 		FIO: '',
+            city: '',
+            email: '',
+            advertising: '',
+            cost: '',//
+            description: '',
+            incomes: '',//прибыль мес
+            investments: '',
+            paush: '',
+            royalty: '',
+            year: '',
+            title: '',
+            phone: '',
+            serializeJSON : function(selector) {
+				var o = {};
+				var a = $(selector).serializeArray();
+				$.each(a, function() {
+					if (o[this.name]) {
+						if (!o[this.name].push) {
+							o[this.name] = [o[this.name]];
+						}
+						o[this.name].push(this.value || '');
+					} else {
+						o[this.name] = this.value || '';
+					}
+				});
+				return JSON.stringify( o ); 
+			},
+
+			init: function(){
+				$("form#data").submit(function(event){
+					$.ajax({
+					        type: "POST",
+					        url: 'http://localhost:8000/set_seller',
+					        data: JSON.stringify(window.viewmodel.serializeJSON("form#data")),
+					        contentType: "application/json"
+						    })
+						    .done(function(data, textStatus, jqXHR){
+						        console.log("Ajax completed: " + data);
+						    })
+						    .fail(function(jqXHR, textStatus, errorThrown){
+						        console.log("Ajax problem: " + textStatus + ". " + errorThrown);
+						    });
+						    event.preventDefault();
+					});
+			},
+	 	};
+
+	 	window.viewmodel = viewModel;
+	 	window.viewmodel.init();
+	 });*/
+</script>
+<script type="text/javascript">
+	 $(document).ready(function() {
+
+	 	var viewModel = {
+	 		
+            serializeJSON : function(selector) {
+				var o = {};
+				var a = $(selector).serializeArray();
+				$.each(a, function() {
+					if (o[this.name]) {
+						if (!o[this.name].push) {
+							o[this.name] = [o[this.name]];
+						}
+						o[this.name].push(this.value || '');
+					} else {
+						o[this.name] = this.value || '';
+					}
+				});
+				return JSON.stringify( {data : o} ); 
+			},
+
+			init: function(){
+				$("form#data").submit(function(event){
+					var formData = window.viewmodel.serializeJSON("form#data");
+					
+					$.ajax({
+					        type: "POST",
+					        url: '/set_seller',
+					        data: formData,
+					       contentType: "application/json; charset=utf-8",
+						    })
+						    .done(function(data, textStatus, jqXHR){
+						        console.log("Ajax completed: " + data);
+						    })
+						    .fail(function(jqXHR, textStatus, errorThrown){
+						        console.log("Ajax problem: " + textStatus + ". " + errorThrown);
+						    });
+
+						    event.preventDefault();
+						});
+			},
+	 	};
+
+	 	window.viewmodel = viewModel;
+	 	window.viewmodel.init();
+	 });
+</script>
+</body></html>

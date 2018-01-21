@@ -46,7 +46,7 @@ class CalculaterController extends Controller
             $em->persist($seller);
             $em->flush();
 
-            return new Response(true);
+            return new JsonResponse(true);//Response(true);
         } catch (\Exception $e) {
             return new Response(false);
         }
@@ -87,7 +87,9 @@ class CalculaterController extends Controller
             return new Response(false);
         }
     }
-
+/**
+     * @Route("/get_sellers")
+     */
     public function getSellersActions(){
         try {
             $em = $this->getDoctrine()->getManager();
@@ -117,4 +119,6 @@ class CalculaterController extends Controller
             return new Response($e->getMessage());
         }
     }
+
+
 }
