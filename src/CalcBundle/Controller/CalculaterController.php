@@ -21,35 +21,35 @@ class CalculaterController extends Controller
      */
     public function setSellerAction(Request $request)
     {
-        try {
-            $jsonData = $request->get('data');
+            try {
+                $jsonData = $request->getContent();
+                //$jsonData = $request->get();
 
-            $data = json_decode($jsonData, 1);
+                $data = json_decode($jsonData, 1);
 
-            $em = $this->getDoctrine()->getManager();
-            $seller = new Seller();
+                $em = $this->getDoctrine()->getManager();
+                $seller = new Seller();
 
-            $seller->setFIO($data['FIO']);
-            $seller->setCity($data['city']);
-            $seller->setEmail($data['email']);
-            $seller->setAdvertising($data['advertising']);
-            $seller->setCosts($data['cost']);
-            $seller->setDescription($data['description']);
-            $seller->setIncomes($data['incomes']);
-            $seller->setInvestments($data['investments']);
-            $seller->setPaush($data['paush']);
-            $seller->setRoyalty($data['royalty']);
-            $seller->setTitle($data['title']);
-            $seller->setYear($data['year']);
-            $seller->setPhone($data['phone']);
+                $seller->setFIO($data['FIO']);
+                $seller->setCity($data['city']);
+                $seller->setEmail($data['email']);
+                //$seller->setAdvertising($data['advertising']);
+                $seller->setCosts($data['cost']);
+                $seller->setDescription($data['description']);
+                $seller->setIncomes($data['incomes']);
+                $seller->setInvestments($data['investments']);
+                $seller->setPaush($data['paush']);
+                $seller->setRoyalty($data['royalty']);
+                $seller->setTitle($data['title']);
+                $seller->setYear($data['year']);
+                $seller->setPhone($data['phone']);
 
-            $em->persist($seller);
-            $em->flush();
+                $em->persist($seller);
+                $em->flush();
+            } catch (\Exception $e) {
+                return new Response($e->getMessage());
+            }
 
-            return new JsonResponse(true);//Response(true);
-        } catch (\Exception $e) {
-            return new Response(false);
-        }
     }
 
     /**
@@ -60,7 +60,7 @@ class CalculaterController extends Controller
      */
     public function setBuyerAction(Request $request){
         try {
-            $jsonData = $request->get('data');
+            $jsonData = $request->getContent();
 
             $data = json_decode($jsonData, 1);
 
