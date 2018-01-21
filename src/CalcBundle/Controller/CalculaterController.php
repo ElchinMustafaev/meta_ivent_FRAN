@@ -96,7 +96,22 @@ class CalculaterController extends Controller
             $qb->select('s')
                 ->from('Seller', 's');
             $sellers = $qb->getResult();
-            
+
+            return new JsonResponse($sellers);
+        } catch (\Exception $e) {
+            return new Response($e->getMessage());
+        }
+    }
+
+    public function getBuyersActions(){
+        try {
+            $em = $this->getDoctrine()->getManager();
+            $qb = $em->createQueryBuilder('b');
+
+            $qb->select('b')
+                ->from('Buyers', 'b');
+            $sellers = $qb->getResult();
+
             return new JsonResponse($sellers);
         } catch (\Exception $e) {
             return new Response($e->getMessage());
