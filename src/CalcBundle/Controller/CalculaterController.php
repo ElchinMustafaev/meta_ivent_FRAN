@@ -87,34 +87,46 @@ class CalculaterController extends Controller
             return new Response(false);
         }
     }
-/**
+    /**
      * @Route("/get_sellers")
      */
-    public function getSellersActions(){
+    public function getSellers(){
         try {
+
             $em = $this->getDoctrine()->getManager();
+            /**
             $qb = $em->createQueryBuilder('s');
 
             $qb->select('s')
                 ->from('Seller', 's');
             $sellers = $qb->getResult();
+            **/
+            //$sellers = $em->getRepository("CalcBundle:Seller")->findAll();
+            //$sellers = json_encode($sellers);
+            //print_r($sellers);
 
+            $query = $this->getDoctrine()
+                ->getRepository("CalcBundle:Seller")
+                ->createQueryBuilder('c')
+                ->getQuery();
+            $sellers = $query->getResult();
             return new JsonResponse($sellers);
         } catch (\Exception $e) {
             return new Response($e->getMessage());
         }
     }
 
+    /**
+     * @Route("/get_buyers")
+     *
+     * @return JsonResponse|Response
+     */
     public function getBuyersActions(){
         try {
             $em = $this->getDoctrine()->getManager();
-            $qb = $em->createQueryBuilder('b');
+            $buyers = $em->getRepository("CalcBundle:Buyers")->findAll();
 
-            $qb->select('b')
-                ->from('Buyers', 'b');
-            $sellers = $qb->getResult();
-
-            return new JsonResponse($sellers);
+            return new JsonResponse($buyers);
         } catch (\Exception $e) {
             return new Response($e->getMessage());
         }
