@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FRAN Агрегатор и упаковщик франшиз</title>
+	<meta name="description" content="FRAN Агрегатор и упаковщик франшиз">
+	<meta name="keywords" content="FRAN Агрегатор и упаковщик франшиз">
+
+	<!--pageMeta-->
+
+	<!-- Lib CSS -->
+	<link href="//fonts.googleapis.com/css?family=Rancho|Open+Sans:400,300,300italic,400italic,600,600italic,700,800italic,700italic,800" rel="stylesheet">
+	<link href="minify/rgen_min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+
+	<!-- Favicons -->
+	<link rel="icon" href="images/favicons/favicon.ico">
+	<link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<!--[if IE 9 ]><script src="js/ie-matchmedia.js"></script><![endif]-->
+
+<style type="text/css">/*
+ * contextMenu.js v 1.4.0
+ * Author: Sudhanshu Yadav
+ * s-yadav.github.com
+ * Copyright (c) 2013 Sudhanshu Yadav.
+ * Dual licensed under the MIT and GPL licenses
+**/
+
+.iw-contextMenu {
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.10);
+    border: 1px solid #c8c7cc;
+    border-radius: 11px;
+    display: none;
+    z-index: 1000000132;
+    max-width: 300px;
+}
+
+.iw-cm-menu {
+    background: #fff;
+    color: #000;
+    margin: 0px;
+    padding: 0px;
+}
+
+.iw-curMenu {
+}
+
+.iw-cm-menu li {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+    list-style: none;
+    padding: 10px;
+    padding-right: 20px;
+    border-bottom: 1px solid #c8c7cc;
+    cursor: pointer;
+    position: relative;
+    font-size: 14px;
+    margin: 0;
+    line-height: inherit;
+}
+
+.iw-cm-menu li:first-child {
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+
+.iw-cm-menu li:last-child {
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-bottom: none;
+}
+
+.iw-mOverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #FFF;
+    opacity: .5;
+}
+
+.iw-contextMenu li.iw-mDisable {
+    opacity: 0.3;
+    cursor: default;
+}
+
+.iw-mSelected {
+    background-color: #F6F6F6;
+}
+
+.iw-cm-arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #000;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    margin-top: -5px;
+}
+
+.iw-mSelected > .iw-cm-arrow-right {
+}
+
+/*context menu css end */</style><style type="text/css">@-webkit-keyframes load4 {
+    0%,
+    100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+}
+
+@keyframes load4 {
+    0%,
+    100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+}</style><style type="text/css">/* This is not a zero-length file! */</style></head>
+<body>
+<div id="page">
+		
+<!-- Navigation -->
+<!-- /.nav-wrp --><!-- Navigation -->
+<!-- /.nav-wrp --><!-- Intro -->
+<!-- /.intro-section --><!-- Content -->
+<!-- /.content-section --><!-- Other section -->
+<!-- /.other-section --><!-- Content -->
+<!-- /.content-section --><!-- Team section -->
+<!-- / Team section --><!-- Form section -->
+<!-- Footer section -->
+<!-- ./Footer section --><!-- Navigation -->
+<!-- /.nav-wrp --><!-- product-section -->
+<!-- /.product-section --><!-- Navigation -->
+<!-- /.nav-wrp --><!-- Navigation -->
+<!-- /.nav-wrp --><!-- Intro -->
+<!-- /.intro-section --><!-- Content -->
+<!-- /.content-section --><!-- Other section -->
+<!-- /.other-section --><!-- Content -->
+<!-- /.content-section --><!-- Team section -->
+<!-- / Team section --><!-- Form section -->
+<!-- Footer section -->
+<!-- ./Footer section --><!-- Navigation -->
+<nav class="nav-wrp nav-1" style="outline-offset: -3px;">
+	<div class="container">
+		
+		<div class="nav-header">
+			<a class="navbar-brand" href="index.html" style=""><img src="images/uploads/logo_black.png" alt="Brand logo" style="outline: medium none currentcolor; cursor: default;"></a>
+			<a class="nav-handle fs-touch-element" data-nav=".nav"><i class="fa fa-bars" style="outline: medium none currentcolor; cursor: default;"></i></a>	
+		</div>
+		
+		<div class="nav vm-item" style="outline: medium none currentcolor; cursor: default;">
+			<ul class="nav-links">
+				<li style="outline: medium none currentcolor; cursor: default;"><a href="#portfolio" style="outline: medium none currentcolor; cursor: default;">Главная</a></li>
+				<li style="outline: medium none currentcolor; cursor: default;"><a href="#feedback">Каталог франшиз</a></li>
+				<li style="outline: medium none currentcolor; cursor: default;"><a href="#story">Инвестирование</a></li>
+				<li style="outline: medium none currentcolor; cursor: default;"><a href="#contact">Контакты</a></li>
+			</ul>
+		</div><!-- /.nav --> 
+		
+	</div><!-- /.container --> 
+</nav><!-- /.nav-wrp --><!-- product-section -->
+<section class="product-section align-c product-section-2" style="outline-offset: -3px;">
+	<div class="container">
+		<h2 class="title">Каталог франшиз<br></h2>
+		<p class="title-sub" style="outline: medium none currentcolor; cursor: default;"></p>
+		<div class="row eqh mb30 fs-equalize-element" style="">
+			
+			<!-- column -->
+			<div class="col-md-4" style="height: 731px;">
+				<!-- product-box -->
+				<div class="product-box product-box1 align-l">
+					<div class="img">
+						<span class="save-tag" style="outline: medium none currentcolor; cursor: default;">KPI 10%</span>
+						<a href="#" target="_blank" style=""><img src="images/uploads/2.png" alt="Prd image"></a>
+						<div class="price flex-cc"><p align="center">
+	От
+	<br>
+	<b>1 ETH</b>
+</p></div>
+					</div>
+					<div class="info">
+						<h3 class="hd"><a href="#" target="_blank" style="">Мыловарня</a></h3>
+						<p class="txt">Уникальная схема запуска производства мыла из натуральных компонентов.</p>
+						<hr class="mr-tb-10 op" style="outline: medium none currentcolor; cursor: default;">
+						
+						<div class="editContent" style="">
+							<strong>Вид</strong>: Инвестирование в упаковку<br>
+							<strong>Роялти</strong> : 100 000<br>
+							<strong>Паушальный взнос</strong> : 200 000<br>
+							<strong>Стартовый капитал</strong>: 300 000<br>
+							<strong>Участников</strong> : 2<br>
+							<strong>Собрано средств</strong> : 50%<br></div>
+						
+						<hr class="mr-tb-10 op" style="outline: medium none currentcolor; cursor: default;">
+						<a href="#" target="_blank" class="btn btn-line dark btn-sm">Стать инвестором</a>
+						<p class="fs12"></p>
+					</div>
+				</div><!-- /.product-box -->
+			</div><!-- /.column -->
+
+			<!-- column -->
+			<div class="col-md-4" style="height: 731px;">
+				<!-- product-box -->
+				<div class="product-box product-box1 align-l" style="outline: medium none currentcolor; cursor: default;">
+					<div class="img">
+						<span class="save-tag" style="outline: medium none currentcolor; cursor: default;">KPI 20%</span>
+						<a href="#" target="_blank" style=""><img src="images/uploads/3.jpg" alt="Prd image" style="outline: medium none currentcolor; cursor: default;"></a>
+						<div class="price flex-cc"><p align="center">
+	От<br>
+	<b>2 ETH</b>
+</p></div>
+					</div>
+					<div class="info">
+						<h3 class="hd"><a href="#" target="_blank" style="">Пиццерия</a></h3>
+						<p class="txt">Пиццерия "под ключ" от известного бренда</p>
+						<hr class="mr-tb-10 op" style="outline: medium none currentcolor; cursor: default;">
+						
+						<div class="editContent" style="">
+							<strong>Вид</strong>: Инвестирование в упаковку<br>
+							<strong>Роялти</strong> : 100 000<br>
+							<strong>Паушальный взнос</strong> : 200 000<br>
+							<strong>Стартовый капитал</strong>: 300 000<br>
+							<strong>Участников</strong> : 2<br>
+							<strong>Собрано средств</strong> : 50%<br></div>
+						
+						<hr class="mr-tb-10 op" style="outline: medium none currentcolor; cursor: default;">
+						<a href="#" target="_blank" class="btn btn-line dark btn-sm">Стать инвестором</a>
+						<p class="fs12"></p>
+					</div>
+				</div><!-- /.product-box -->
+			</div><!-- /.column -->
+
+			<!-- column -->
+			<div class="col-md-4" style="height: 731px;">
+				<!-- product-box -->
+				<div class="product-box product-box1 align-l" style="outline: medium none currentcolor; cursor: default;">
+					<div class="img">
+						<span class="save-tag">KPI 30%</span>
+						<a href="#" target="_blank" style=""><img src="images/uploads/3.png" alt="Prd image" style="outline: medium none currentcolor; cursor: default;"></a>
+						<div class="price flex-cc"><p align="center">
+	От
+	<br>
+	<b>3 ETH</b>
+</p></div>
+					</div>
+					<div class="info">
+						<h3 class="hd"><a href="#" target="_blank" style="">Кофейня</a></h3>
+						<p class="txt">Продуманное решение по продаже кофе на вынос</p>
+						<hr class="mr-tb-10 op" style="outline: medium none currentcolor; cursor: default;">
+						
+						<div class="editContent" style="">
+							<strong>Вид</strong>: Инвестирование в упаковку<br>
+							<strong>Роялти</strong> : 100 000<br>
+							<strong>Паушальный взнос</strong> : 200 000<br>
+							<strong>Стартовый капитал</strong>: 300 000<br>
+							<strong>Участников</strong> : 2<br>
+							<strong>Собрано средств</strong> : 50%<br></div>
+						
+						<hr class="mr-tb-10 op" style="outline: medium none currentcolor; cursor: default;">
+						<a href="#" target="_blank" class="btn btn-line dark btn-sm">Стать инвестором</a>
+						<p class="fs12"></p>
+					</div>
+				</div><!-- /.product-box -->
+			</div><!-- /.column -->
+
+			<!-- column -->
+			<div class="col-md-4" style="height: 731px;">
+				<!-- product-box -->
+				<div class="product-box product-box1 align-l" style="outline: medium none currentcolor; cursor: default;">
+					<div class="img">
+						<span class="save-tag">KPI 40%</span>
+						<a href="#" target="_blank" style=""><img src="images/uploads/4.png" alt="Prd image" style="outline: medium none currentcolor; cursor: default;"></a>
+						<div class="price flex-cc"><p align="center">
+	От
+	<br>
+	<b>1 ETH</b>
+</p></div>
+					</div>
+					<div class="info">
+						<h3 class="hd"><a href="#" target="_blank" style="">Доставка стройматериалов</a></h3>
+						<p class="txt">Предприятие по управлению доставкой стройматериалов</p>
+						<hr class="mr-tb-10 op" style="outline: medium none currentcolor; cursor: default;">
+						
+						<div class="editContent" style="">
+							<strong>Вид</strong>: Инвестирование в упаковку<br>
+							<strong>Роялти</strong> : 100 000<br>
+							<strong>Паушальный взнос</strong> : 200 000<br>
+							<strong>Стартовый капитал</strong>: 300 000<br>
+							<strong>Участников</strong> : 2<br>
+							<strong>Собрано средств</strong> : 50%<br></div>
+						
+						<hr class="mr-tb-10 op" style="outline: medium none currentcolor; cursor: default;">
+						<a href="#" target="_blank" class="btn btn-line dark btn-sm">Стать инвестором</a>
+						<p class="fs12"></p>
+					</div>
+				</div><!-- /.product-box -->
+			</div><!-- /.column -->
+
+			<!-- column -->
+			<div class="col-md-4" style="height: 731px;">
+				<!-- product-box -->
+				<div class="product-box product-box1 align-l" style="outline: medium none currentcolor; cursor: default;">
+					<div class="img">
+						<span class="save-tag">KPI 50%</span>
+						<a href="#" target="_blank" style=""><img src="images/uploads/5.png" alt="Prd image" style="outline: medium none currentcolor; cursor: default;"></a>
+						<div class="price flex-cc"><p align="center">
+	От
+	<br>
+	<b>2 ETH</b>
+</p></div>
+					</div>
+					<div class="info">
+						<h3 class="hd"><a href="#" target="_blank" style="">Ремонт техники</a></h3>
+						<p class="txt">Фирма по ремонту любой техники на дому</p>
+						<hr class="mr-tb-10 op" style="outline: medium none currentcolor; cursor: default;">
+						
+						<div class="editContent" style="">
+							<strong>Вид</strong>: Инвестирование в упаковку<br>
+							<strong>Роялти</strong> : 100 000<br>
+							<strong>Паушальный взнос</strong> : 200 000<br>
+							<strong>Стартовый капитал</strong>: 300 000<br>
+							<strong>Участников</strong> : 2<br>
+							<strong>Собрано средств</strong> : 50%<br></div>
+						
+						<hr class="mr-tb-10 op" style="outline: medium none currentcolor; cursor: default;">
+						<a href="#" target="_blank" class="btn btn-line dark btn-sm">Стать инвестором</a>
+						<p class="fs12"></p>
+					</div>
+				</div><!-- /.product-box -->
+			</div><!-- /.column -->
+
+			<!-- column -->
+			<div class="col-md-4" style="height: 731px;">
+				<!-- product-box -->
+				<div class="product-box product-box1 align-l" style="outline: medium none currentcolor; cursor: default;">
+					<div class="img">
+						<span class="save-tag">KPI 60%</span>
+						<a href="#" target="_blank" style=""><img src="images/uploads/travel.jpg" alt="Prd image" style="outline: medium none currentcolor; cursor: default;"></a>
+						<div class="price flex-cc"><p align="center">
+	От
+	<br>
+	<b>3 ETH</b>
+</p></div>
+					</div>
+					<div class="info">
+						<h3 class="hd"><a href="#" target="_blank" style="">VR квесты</a></h3>
+						<p class="txt">Организация массовых квестов в виртуальной реальности</p>
+						<hr class="mr-tb-10 op" style="outline: medium none currentcolor; cursor: default;">
+						
+						<div class="editContent" style="">
+							<strong>Вид</strong>: Инвестирование в упаковку<br>
+							<strong>Роялти</strong> : 100 000<br>
+							<strong>Паушальный взнос</strong> : 200 000<br>
+							<strong>Стартовый капитал</strong>: 300 000<br>
+							<strong>Участников</strong> : 2<br>
+							<strong>Собрано средств</strong> : 50%<br></div>
+						
+						<hr class="mr-tb-10 op" style="outline: medium none currentcolor; cursor: default;">
+						<a href="#" target="_blank" class="btn btn-line dark btn-sm">Стать инвестором</a>
+						<p class="fs12"></p>
+					</div>
+				</div><!-- /.product-box -->
+			</div><!-- /.column -->
+
+		</div><!-- /.row -->
+	</div><!-- /.container -->
+</section><!-- /.product-section --></div>
+<!-- /#page --> 
+
+<!-- JavaScript --> 
+<script src="minify/rgen_min.js"></script>
+<script async="" src="js/rgen.js"></script>
+
+
+</body></html>

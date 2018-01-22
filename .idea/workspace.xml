@@ -5,220 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad28400d-dd0c-4465-805b-ab839e340105" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/bg9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/doctor_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/doctor_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/doctor_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/doctor_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/doctor_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/doctor_6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/doctor_7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/doctor_8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/favicons/apple-touch-icon-114x114.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/favicons/apple-touch-icon-72x72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/favicons/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/favicons/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/logo1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/macbook-pro1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/uploads/andrey.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/uploads/elchin.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/uploads/igor.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/uploads/ilia.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/uploads/iliaa.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/uploads/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/uploads/logo_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/uploads/macbook-pro1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/uploads/unknown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/Icon-font-7-stroke-PIXEDEN/fonts/Pe-icon-7-stroke.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/Icon-font-7-stroke-PIXEDEN/fonts/Pe-icon-7-stroke.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/Icon-font-7-stroke-PIXEDEN/fonts/Pe-icon-7-stroke.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/et-line-font/fonts/et-line.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/et-line-font/fonts/et-line.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/et-line-font/fonts/et-line.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/font-awesome/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/font-awesome/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/jquery.mb.YTPlayer/css/font/ytp-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/jquery.mb.YTPlayer/css/font/ytp-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/jquery.mb.YTPlayer/css/font/ytp-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/jquery.mb.YTPlayer/css/images/raster.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/jquery.mb.YTPlayer/css/images/raster@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/jquery.mb.YTPlayer/css/images/raster_dot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/jquery.mb.YTPlayer/css/images/raster_dot@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/themify-icons/fonts/themify.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/themify-icons/fonts/themify.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/themify-icons/fonts/themify.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/vegas/overlays/01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/vegas/overlays/02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/vegas/overlays/03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/vegas/overlays/04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/vegas/overlays/05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/vegas/overlays/06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/vegas/overlays/07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/vegas/overlays/08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/vegas/overlays/09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/helper.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/rgen-grids.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/Az6PfcE2_auth.rgen" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/errorlog.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/formdata.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/notify-me.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/CMBase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/GetResponseAPI.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/MailChimp.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/aweber_api/aweber.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/aweber_api/aweber_api.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/aweber_api/aweber_collection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/aweber_api/aweber_entry.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/aweber_api/aweber_entry_data_array.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/aweber_api/aweber_response.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/aweber_api/curl_object.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/aweber_api/curl_response.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/aweber_api/exceptions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/aweber_api/oauth_adapter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/aweber_api/oauth_application.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Auth/CtctDataStore.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Auth/CtctOAuth2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Auth/SessionDataStore.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Account/AccountInfo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Account/VerifiedEmailAddress.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Activities/Activity.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Activities/ActivityError.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Activities/AddContacts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Activities/AddContactsImportData.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Activities/ExportContacts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Component.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Contacts/Address.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Contacts/Contact.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Contacts/ContactList.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Contacts/CustomField.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Contacts/EmailAddress.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Contacts/Note.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/EmailMarketing/Campaign.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/EmailMarketing/ClickThroughDetails.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/EmailMarketing/MessageFooter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/EmailMarketing/Schedule.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/EmailMarketing/TestSend.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Library/File.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Library/Folder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Library/Thumbnail.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/ResultSet.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Tracking/BounceActivity.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Tracking/ClickActivity.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Tracking/ForwardActivity.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Tracking/OpenActivity.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Tracking/SendActivity.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Tracking/TrackingActivity.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Tracking/TrackingSummary.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Components/Tracking/UnsubscribeActivity.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/ConstantContact.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Exceptions/CtctException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Exceptions/IllegalArgumentException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Exceptions/OAuth2Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Services/AccountService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Services/ActivityService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Services/BaseService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Services/CampaignScheduleService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Services/CampaignTrackingService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Services/ContactService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Services/ContactTrackingService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Services/EmailMarketingService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Services/LibraryService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Services/ListService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/SplClassLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Util/Config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Util/CurlResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Util/RestClient.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/Util/RestClientInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/WebHooks/CTCTWebhookUtil.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/constantcontact/src/Ctct/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/php_wrappers/iContactApi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/form-data/subscription.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/ie-matchmedia.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/plugins.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/rgen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/Icon-font-7-stroke-PIXEDEN/css/helper.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/Icon-font-7-stroke-PIXEDEN/css/pe-icon-7-stroke.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/Icon-font-7-stroke-PIXEDEN/fonts/Pe-icon-7-stroke.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/Magnific-Popup/jquery.magnific-popup.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/Magnific-Popup/magnific-popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/Swiper/css/swiper.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/Swiper/css/swiper.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/Swiper/js/maps/swiper.jquery.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/Swiper/js/swiper.jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/Swiper/js/swiper.jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/bootstrap-datepicker/css/bootstrap-datepicker.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/bootstrap-datepicker/js/bootstrap-datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/bootstrap-datepicker/js/bootstrap-datepicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/bootstrap-datetimepicker/css/bootstrap-datetimepicker-standalone.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/bootstrap-datetimepicker/js/moment.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/bootstrap/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/bootstrap/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/bootstrap/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/bootstrap/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/et-line-font/Read Me.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/et-line-font/et-line.dev.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/et-line-font/fonts/et-line.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/et-line-font/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/et-line-font/lte-ie7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/et-line-font/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/font-awesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/font-awesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/jquery-validation/jquery.validate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/jquery.mb.YTPlayer/css/jquery.mb.YTPlayer.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/jquery.mb.YTPlayer/jquery.mb.YTPlayer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/jquery/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/owl-carousel/owl.carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/owl-carousel/owl.carousel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/sweetalert/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/sweetalert/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/sweetalert/sweetalert.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/sweetalert/sweetalert.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/themify-icons/fonts/themify.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/themify-icons/ie7/ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/themify-icons/ie7/ie7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/themify-icons/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/themify-icons/themify-icons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/vegas/vegas.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/vegas/vegas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/lib/vegas/vegas.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/minify/rgen_min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/minify/rgen_min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/symfony_requirements" afterPath="$PROJECT_DIR$/bin/symfony_requirements" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lending/index.html" afterPath="$PROJECT_DIR$/lending/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lending/js/rgen.js" afterPath="$PROJECT_DIR$/lending/js/rgen.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CalcBundle/Controller/CalculaterController.php" afterPath="$PROJECT_DIR$/src/CalcBundle/Controller/CalculaterController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CalcBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/CalcBundle/Resources/views/Default/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/SymfonyRequirements.php" afterPath="$PROJECT_DIR$/var/SymfonyRequirements.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app_dev.php" afterPath="$PROJECT_DIR$/web/app_dev.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/config.php" afterPath="$PROJECT_DIR$/web/config.php" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -244,16 +32,6 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
     </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="Sqlite (Xerial) - FRAN.sqlite" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -264,7 +42,7 @@
       <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
+            <state relative-caret-position="726">
               <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
               <folding />
             </state>
@@ -281,11 +59,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculaterController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CalculaterController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CalcBundle/Controller/CalculaterController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="132">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnnotationRegistry.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationRegistry.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -303,15 +101,15 @@
       </file>
       <file leaf-file-name="seller" pinned="false" current-in-tab="false">
         <entry file="dbDummy://dbtable:/23b35337/7ac47a54-31bb-46cf-bd47-2f8827fc55e0/seller">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
           <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -389,6 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -431,18 +230,88 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meta_ivent_FRAN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meta_ivent_FRAN" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CalcBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meta_ivent_FRAN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meta_ivent_FRAN" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CalcBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meta_ivent_FRAN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meta_ivent_FRAN" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meta_ivent_FRAN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meta_ivent_FRAN" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="FullScreen" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
@@ -479,6 +348,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -516,27 +391,28 @@
       <workItem from="1516465104805" duration="529000" />
       <workItem from="1516465730711" duration="65000" />
       <workItem from="1516465814738" duration="64000" />
-      <workItem from="1516535455488" duration="12516000" />
+      <workItem from="1516535455488" duration="14083000" />
+      <workItem from="1516606361269" duration="980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13187000" />
+    <option name="totallyTimeSpent" value="15734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24543501" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24489796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23200859" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -567,8 +443,61 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="726">
           <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalcBundle/CalcBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalcBundle/Controller/CalculaterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7ac47a54-31bb-46cf-bd47-2f8827fc55e0/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/23b35337/7ac47a54-31bb-46cf-bd47-2f8827fc55e0/seller">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalcBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -583,7 +512,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
+        <state relative-caret-position="495">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
           <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
           <folding />
         </state>
@@ -621,31 +558,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/rgen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/rgen.js" />
     <entry file="dbDummy://dbtable:/23b35337/7ac47a54-31bb-46cf-bd47-2f8827fc55e0/seller">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CalcBundle/Controller/CalculaterController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="132">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationRegistry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
           <folding />
         </state>
       </provider>
