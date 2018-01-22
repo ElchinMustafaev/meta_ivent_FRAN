@@ -177,16 +177,16 @@
 		</div>
 
 		<div class="nav vm-item m-nav open">
-			<ul class="nav-links" id="nav-links">
-				<li><a href="#catalog" class="open-calatog" style="background-color: rgba(0, 0, 0, 0); color: rgb(68, 68, 68); font-size: 14px;" src="images/uploads/logo_black.png">Каталог франшиз</a></li>
+			<ul class="nav-links" id="nav-links-landing">
+				<li><a href="#catalog" id="open-calatog" class="" style="background-color: rgba(0, 0, 0, 0); color: rgb(68, 68, 68); font-size: 14px;" src="images/uploads/logo_black.png">Каталог франшиз</a></li>
 				<li><a href="#bussines" class="" style="background-color: rgba(0, 0, 0, 0); color: rgb(39, 78, 19); font-size: 14px;" src="images/uploads/logo_black.png">Инструменты франчайзи</a></li>
 				<li><a href="#invest" class="" style="background-color: rgba(0, 0, 0, 0); color: rgb(68, 68, 68); font-size: 14px;" src="images/uploads/logo_black.png">Для инвесторов</a></li>
 				<li><a href="#team" class="" style="background-color: rgba(0, 0, 0, 0); color: rgb(68, 68, 68); font-size: 14px;" src="images/uploads/logo_black.png">О нас</a></li>
 				<li><a href="#contact" style="background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 14px;" src="images/uploads/logo_black.png" class="active">Контакты</a></li>
 
 			</ul>
-			<ul class="nav-links" id="nav-links2">
-				<li><a href="#main-page" class="open-landing" style="background-color: rgba(0, 0, 0, 0); color: rgb(68, 68, 68); font-size: 14px;" src="images/uploads/logo_black.png">Главная</a></li>
+			<ul class="nav-links" id="nav-links-page">
+				<li><a href="#main-page" id="open-landing" class="" style="background-color: rgba(0, 0, 0, 0); color: rgb(68, 68, 68); font-size: 14px;" src="images/uploads/logo_black.png">Главная</a></li>
 				<li><a href="#catalog" id="open-calatog2" class="" style="background-color: rgba(0, 0, 0, 0); color: rgb(39, 78, 19); font-size: 14px;" src="images/uploads/logo_black.png">Каталог франшиз</a></li>
 				<li><a href="#invest" id="open-busines" class="" style="background-color: rgba(0, 0, 0, 0); color: rgb(68, 68, 68); font-size: 14px;" src="images/uploads/logo_black.png">Владельцам бизнеса</a></li>
 				<li><a href="#team" id="open-invest" class="" style="background-color: rgba(0, 0, 0, 0); color: rgb(68, 68, 68); font-size: 14px;" src="images/uploads/logo_black.png">Инвесторам</a></li>
@@ -370,7 +370,7 @@
 				<div class="content vm-item">
 					<h2 class="title">Франчайзи для инвесторов</h2>
 					<p class="title-sub">Инвестирование в собственный бизнес по модели франчайзи дает более быструю окупаемость и низкий порог входа для новичков. Вы получаете действующую  бизнес-модель со всеми документами и инструментами для начала деятельности.</p>
-					<a href="#" class="btn btn-line light open-catalog">Выбрать франшизу</a>
+					<a href="#" class="btn btn-line light">Выбрать франшизу</a>
 				</div><!-- /.content -->
 				<div class="full-wh bg-section" style="background-image: url(&quot;&quot;); background-color: rgb(106, 168, 79);" data-bg="" data-bg-align="center-center-cover" src="images/uploads/logo.png"></div>
 			</div>
@@ -687,16 +687,16 @@
 
 
 						});
-				$('#nav-links2').hide();
-				$('.open-calatog').on("click",function(){
-					$('#container-main').load('/market.html #container-main');
+
+				$('#open-calatog').on("click",function(){
+					$('#container-main').load('/catalog.html #container-main');
 					$('#nav-links').hide();
 					$('#nav-links2').show();
 				}); 
-				$('.open-landing').on("click",function(){
+				$('#open-landing').on("click",function(){
 					$('#nav-links2').hide();
 					$('#nav-links').show();
-					$('#container-main').load('/main.html #container-main');
+					$('#container-main').load('/index.html #container-main');
 				});
 			},
 	 	};
